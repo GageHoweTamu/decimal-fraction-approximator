@@ -20,7 +20,7 @@ denominator:  63
 numerator:  9    
 denominator:  64    
 
-* Desired accuracy: 0.001 * 100%
-* End value: 3.140625
-* End accuracy: 1.0003081086057053
-* Approximation of 3.141592653589793: 3 + 9/64, or 201/64.
+Desired accuracy: 0.001 * 100%    
+End value: 3.140625    
+End accuracy: 1.0003081086057053    
+Approximation of 3.141592653589793: 3 + 9/64, or 201/64.    
