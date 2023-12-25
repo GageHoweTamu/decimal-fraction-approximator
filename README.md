@@ -1,6 +1,6 @@
-# decimal-fraction-approximator
+# Decimal -> Fraction Approximation
 
-### This program finds the simplest fraction closest to a decimal. Eg. "approximate the value of pi with an accuracy of 0.5%" (returns the fraction 22/7)
+### This simple algorithm finds the simplest fraction closest to a decimal. Eg. "approximate the value of pi with an accuracy of 0.5%" (returns the fraction 22/7)
 
 Accuracy is specified with "accuracy_score", the minimum fractional error
 between the input and the output fraction.    
