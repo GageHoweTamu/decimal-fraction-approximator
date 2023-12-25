@@ -20,8 +20,8 @@ def approximate_float(input_value):
     return numerator, denominator
 
 ############## Input values here
-input_value = 3.1415926535897932384626433832795028841971
-accuracy_score = 0.001
+input_value = 2.7182818284590452353602874713527
+accuracy_score = 0.0001
 ##############
 
 whole_part, fractional_part = separate_parts(input_value)
@@ -29,7 +29,8 @@ numerator, denominator = approximate_float(fractional_part)
 
 print("\n")
 
-print(f"Desired accuracy: {accuracy_score} * 100%")
+print(f"Desired value: {input_value}")
+print(f"Desired accuracy: {accuracy_score} * 100%\n")
 
 val = (whole_part * denominator + numerator)/denominator
 print(f"End value: {val}")
