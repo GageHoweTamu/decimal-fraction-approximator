@@ -6,8 +6,7 @@ Accuracy and running time are specified with "accuracy_score", the minimum fract
 between the input and the output fraction.
 
 ### Sample output: (Given input_value = 3.1415926535897932384626433832795028841971, accuracy_score = 0.001)
-* Desired accuracy: 0.1 * 100%
-* End value: 3.2
-* End accuracy: 0.9817477042468103
-* Approximation of 3.141592653589793: 3 + 1/5, or 16/5.
-
+* Desired accuracy: 0.001 * 100%
+* End value: 3.140625
+* End accuracy: 1.0003081086057053
+* Approximation of 3.141592653589793: 3 + 9/64, or 201/64.
