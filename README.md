@@ -3,7 +3,7 @@
 ### This program finds the simplest fraction closest to a decimal, like pi.
 
 Accuracy is specified with "accuracy_score", the minimum fractional error
-between the input and the output fraction.
+between the input and the output fraction.    
 
 Sample output given input_value = 3.1415926535897932384626433832795028841971, accuracy_score = 0.001):    
 
