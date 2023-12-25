@@ -5,7 +5,8 @@
 Accuracy is specified with "accuracy_score", the minimum fractional error
 between the input and the output fraction.
 
-### Sample output: (Given input_value = 3.1415926535897932384626433832795028841971, accuracy_score = 0.001)
+Sample output given input_value = 3.1415926535897932384626433832795028841971, accuracy_score = 0.001):    
+
 numerator:  0    
 denominator:  2    
 numerator:  0    
