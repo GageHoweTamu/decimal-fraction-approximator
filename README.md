@@ -28,3 +28,5 @@ Starting approximation
 Timer stopped    
 3.141592653589793 approximates to 3 + 244252/1725033, which equals 3.1415926535898153. This approximation is *99.99999999999929%* accurate.    
 Time elapsed is: 7.26475ms    
+
+Compare this to Python, which took 11.82 seconds. For context, that's 1627 times slower.
