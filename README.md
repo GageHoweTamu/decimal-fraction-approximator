@@ -6,7 +6,7 @@ Accuracy is specified with "accuracy_score", the minimum fractional error
 between the input and the output fraction.    
 
 # Rust refactor!
-Now refactored in Rust, runs thousands of times faster.
+Now refactored in Rust, which runs thousands of times faster.
 
 Timer started    
 Starting approximation    
@@ -14,7 +14,7 @@ Timer stopped
 3.141592653589793 approximates to 3 + 244252/1725033, which equals 3.1415926535898153. This approximation is *99.99999999999929%* accurate.    
 Time elapsed is: 7.26475ms    
 
-Compare this to Python, which took 11.82 seconds: *1627 times slower.*
+Compare this to Python, which took 11.82 seconds: *~1627 times slower.*
 
 ## Python
 
