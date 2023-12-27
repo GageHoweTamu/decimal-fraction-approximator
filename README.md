@@ -21,7 +21,7 @@ Approximation of 3.141592653589793: 3 + 9/64, or 201/64.
 "
 
 # Rust refactor!
-Refactored in the Rust language. Code runs thousands of times faster.
+Refactored in Rust, runs thousands of times faster.
 
 Timer started    
 Starting approximation    
