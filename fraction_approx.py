@@ -1,4 +1,5 @@
 from fractions import Fraction
+import time
 
 def separate_parts(value):
     whole_part = int(value)
@@ -20,9 +21,11 @@ def approximate_float(input_value):
     return numerator, denominator
 
 ############## Input values here
-input_value = 2.7182818284590452353602874713527
-accuracy_score = 0.0001
+input_value = 3.14159265358979323846264338327950288419716939937510
+accuracy_score = 0.0000000000001
 ##############
+
+t1 = time.perf_counter() # Start timer
 
 whole_part, fractional_part = separate_parts(input_value)
 numerator, denominator = approximate_float(fractional_part)
@@ -39,20 +42,6 @@ print(f"End accuracy: {input_value/val}")
 print(f"\nApproximation of {input_value}: {whole_part} + {numerator}/{denominator}, \
 or {whole_part * denominator + numerator}/{denominator}.\n")
 
-'''
+t2 = time.perf_counter() # Start timer
 
-This program finds the simplest fraction that is closest to a decimal.
-
-Accuracy and running time are specified with "accuracy_score", the minimum fractional error
-between the input and the output fraction.
-
-Sample outputs:
-
-Desired accuracy: 0.1 * 100%
-End value: 3.2
-End accuracy: 0.9817477042468103
-Approximation of 3.141592653589793: 3 + 1/5, or 16/5.
-
-
-
-'''
+print(f"Time elapsed: {t2 - t1} seconds")
