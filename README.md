@@ -21,8 +21,8 @@ Approximation of 3.141592653589793: 3 + 9/64, or 201/64.
 "
 
 # Rust refactor!
-Timer started
-Starting approximation
-Timer stopped
-3.141592653589793 approximates to 3 + 244252/1725033, which equals 3.1415926535898153. This approximation is *99.99999999999929%* accurate.
-Time elapsed is: 7.26475ms
+Timer started    
+Starting approximation    
+Timer stopped    
+3.141592653589793 approximates to 3 + 244252/1725033, which equals 3.1415926535898153. This approximation is *99.99999999999929%* accurate.    
+Time elapsed is: 7.26475ms    
