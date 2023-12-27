@@ -16,6 +16,9 @@ Time elapsed is: 7.26475ms
 
 Compare this to Python, which took 11.82 seconds: *~1627 times slower.*
 
+Here is a graph of the average running time over the fractional error the algorithm was required to achieve. I suspect floating point error is responsible for the strange behavior over E-15.    
+<img width="477" alt="Screenshot 2023-12-26 at 9 36 22 PM" src="https://github.com/GageHoweTamu/decimal-fraction-approximator/assets/116420022/24e9aec8-0cb8-4a24-8b2e-e388919f2bb2">
+
 ## Python
 
 Sample output given input_value = 3.1415926535897932384626433832795028841971, accuracy_score = 0.001):    
