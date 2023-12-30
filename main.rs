@@ -1,5 +1,4 @@
-use std::time::{Duration, Instant};
-const EPSILON: f64 = f64::EPSILON;
+use std::time::{Instant};
 
 fn separate_parts(value: f64) -> (i64, f64) {
     
