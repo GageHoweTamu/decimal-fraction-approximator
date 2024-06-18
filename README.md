@@ -6,7 +6,7 @@ Accuracy is specified with "accuracy_score", the minimum fractional error
 between the input and the output fraction.    
 
 # Rust refactor!
-Now refactored in Rust and runs thousands of times faster.    
+Now refactored in Rust and runs thousands of times faster. I'm still looking into faster algorithms.    
 "    
 Timer started    
 Starting approximation    
