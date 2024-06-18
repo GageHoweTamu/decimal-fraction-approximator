@@ -38,6 +38,3 @@ End accuracy: 1.0003081086057053
 Approximation of 3.141592653589793: 3 + 9/64, or 201/64.    
 "    
 
-
-I'm currently writing a Dev.to article about this, should be done soon    
-https://dev.to/gagehowetamu/using-fractions-to-store-high-accuracy-float-values-23dm-temp-slug-830620?preview=b7b68f09c80f0b6ce967410162be98f55455dfc29c24e8d57ebd1098ea257686b3217f71bb3c9e8fd4b2bef50e9131cbb32d355fda40c85618bf9207
